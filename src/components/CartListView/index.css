@@ -1,0 +1,81 @@
+.cart-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+/* Order Total Section */
+.cart-summary-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-top: 2px solid #cbd5e1;
+  padding-top: 16px;
+  margin-top: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-summary-container {
+    align-items: flex-end;
+    padding-top: 24px;
+  }
+}
+
+.order-total-container {
+  margin-bottom: 12px;
+}
+
+.order-total-label {
+  color: #3e4c59;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 6px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .order-total-label {
+    font-size: 28px;
+  }
+}
+
+.order-total-value {
+  color: #0967d2;
+}
+
+.total-items {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .total-items {
+    font-size: 14px;
+    text-align: right;
+  }
+}
+
+.checkout-btn {
+  background-color: #0967d2;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 32px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 12px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .checkout-btn {
+    font-size: 16px;
+    padding: 12px 48px;
+    width: auto;
+  }
+}
